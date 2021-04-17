@@ -15,7 +15,7 @@ btn.addEventListener('click', function (){
   });
 });
 
-//hola
+
 message.addEventListener('keypress', function (){
   socket.emit('chat:typing', username.value);
 
